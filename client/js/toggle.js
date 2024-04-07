@@ -15,6 +15,7 @@ document.getElementById('theme-switcher').addEventListener('click', function() {
     }
 });
 
-//set initial state
-document.body.classList.add('light-mode');
-document.querySelector('#theme-switcher i').classList.add('fa-moon');
+// Change all href targets to _new
+document.querySelectorAll('a').forEach(anchor => {
+    anchor.target = '_new';
+});
