@@ -8,6 +8,5 @@ function loadFooter(){
         </div>
     </div>
     `;
-
 }
 loadFooter();
