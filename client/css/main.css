@@ -91,6 +91,9 @@ body.dark-mode .container-text {
     text-decoration: dashed underline;
     text-decoration-thickness: 1px;
 }
+.active{
+    font-weight: bold;
+}
 .dot {
     height: 5px;
     width: 5px;
@@ -193,6 +196,7 @@ body.dark-mode .container-text a {
 }
 .details input{
     border-radius: 0.2cm;
+
     width: 100%;
     margin-top: -0.2cm;
     font-family: "Source Serif Pro", monospace, sans-serif;
