@@ -21,7 +21,4 @@ window.onload = function(){
     body.classList.add('light-mode');
 };
 
-// Change all href targets to _new
-document.querySelectorAll('a').forEach(anchor => {
-    anchor.target = '_new';
-});
+
