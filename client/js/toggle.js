@@ -14,6 +14,12 @@ document.getElementById('theme-switcher').addEventListener('click', function() {
         icon.classList.add('fa-moon');
     }
 });
+window.onload = function(){
+    var body = document.body;
+    var dot = document.getElementsByClassName('dot');
+    dot[0].classList.add('visible');
+    body.classList.add('light-mode');
+};
 
 // Change all href targets to _new
 document.querySelectorAll('a').forEach(anchor => {
