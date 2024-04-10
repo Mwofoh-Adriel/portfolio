@@ -15,7 +15,6 @@ body.dark-mode {
 #theme-switcher {
     background: none;
     border: none;
-    font-size: 2cm;
     position: absolute;
     margin-top: -3.8cm;
 }
@@ -39,13 +38,13 @@ body.dark-mode .container-text {
 
 #theme-switcher .fa-moon {
     font-size: 1.7cm;
-    margin-left: 27cm;
+    margin-right: -57cm;
     color:black;
 }
 #theme-switcher .fa-sun {
     color: #f1c40f;
     font-size: 2cm;
-    margin-left: 27cm;
+    margin-right: -57cm;
 }
 
 /* Make both components appear next to each other */
@@ -121,7 +120,7 @@ body.dark-mode .dot {
     margin: 2cm 5.3cm;
 }
 .line{
-    width: 24.5cm;
+    width: 24.8cm;
     margin-top: -1cm;
     margin-left: 5.20cm;
     color: #28313d;
