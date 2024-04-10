@@ -1,0 +1,24 @@
+.intro span{
+    font-family: "Source Serif Pro", monospace, sans-serif;
+    font-size:  40px;
+    font-weight: 400;
+    margin-left: 14.75%;
+}
+.intro word{
+    font-family: "Source Serif Pro", monospace, sans-serif;
+    font-size:  22px;
+    font-weight: 300;
+}
+
+/* Main Section for Blogs*/
+.blog-container{
+    height: 6cm;
+    width: 50%;
+    background-color: blue;
+    border-radius: 0.5cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 3%;
+    margin-left: 30%;
+}
