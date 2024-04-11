@@ -1,0 +1,42 @@
+.main-container{
+    height: 50cm;
+    width: 65%;
+    /* background-color: blue; */
+    margin-left: 6.5cm;
+    margin-top: 1cm;
+    border-radius: 0.2cm;
+}
+.blog-title{
+    font-family: "Source Serif Pro", monospace, sans-serif;
+    /* background-color: green; */
+    font-size:  30px;
+    height: 4%;
+    width: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline;
+}
+.blog-title:hover{
+    text-decoration: dashed underline;
+}
+.blog-image img{
+    height: 8cm;
+    width: 12cm;
+    margin-left: 5.4cm;
+    margin-top: 1cm;
+    border-radius: 0.04cm;
+}
+.text-proper{
+    height: 30cm;
+    width: 100%;
+    /* background-color:brown; */
+    margin-left: 0cm;
+    margin-top: 0.5cm;
+    font-size: 21px;
+    text-align: justify;
+    font-family: "Source Serif Pro", monospace, sans-serif;
+}
+footer{
+    margin-top: 5cm;
+}
