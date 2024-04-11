@@ -13,7 +13,7 @@
 /* Main Section for Blogs*/
 .blog-container{
     height: 4cm;
-    width: 60%;
+    width: 65%;
     /* background-color: blue; */
     border-radius: 0.2cm;
     display: flex;
@@ -31,8 +31,9 @@
     font-size:  30px;
     font-weight: 600;
     margin-left: 3%;
-    margin-top: 5%;
-    text-decoration: underline;
+    margin-top: 6.5%;
+    /* background-color: blue; */
+    width: 110%;
 }
 .blog-pic img{
     border-radius: 0.2cm;
@@ -45,7 +46,7 @@
     height: 25%;
     width: 60%;
     /* background-color: blue; */
-    margin-left: -69%;
+    margin-left: -64.6%;
     margin-top: 2.2cm;
     font-size: 18px;
     justify-content: center;
@@ -55,9 +56,24 @@
     height: 25%;
     width: 60%;
     /* background-color: blue; */
-    margin-left: -14.3cm;
+    margin-left: -68.3%;
     margin-top: 3.2cm;
     font-size: 17px;
     font-family: "Source Serif Pro", monospace, sans-serif;
+}
+#blog-link {
+    text-decoration: underline
+}
+#blog-link:hover{
+    text-decoration: dashed underline;
+}
 
+#blog-link .blog-title {
+    font-family: "Source Serif Pro", monospace, sans-serif;
+    font-size:  30px;
+    font-weight: 600;
+    margin-left: 3%;
+    margin-top: 6.5%;
+    /* color: #28313d; Makes the text dark */
+    width: 110%;
 }
