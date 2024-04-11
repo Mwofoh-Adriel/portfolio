@@ -45,9 +45,19 @@
     height: 25%;
     width: 60%;
     /* background-color: blue; */
-    margin-left: -16.35cm;
+    margin-left: -69%;
     margin-top: 2.2cm;
     font-size: 18px;
     justify-content: center;
     font-family: "Source Serif Pro", monospace, sans-serif;
+}
+.blog-dt{
+    height: 25%;
+    width: 60%;
+    /* background-color: blue; */
+    margin-left: -14.3cm;
+    margin-top: 3.2cm;
+    font-size: 17px;
+    font-family: "Source Serif Pro", monospace, sans-serif;
+
 }
