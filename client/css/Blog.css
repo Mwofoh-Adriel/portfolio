@@ -1,7 +1,7 @@
 .main-container{
     height: 51cm;
     width: 65%;
-    background-color: blue;
+    /* background-color: blue; */
     margin-left: 6.5cm;
     margin-top: 1cm;
     border-radius: 0.2cm;
@@ -38,12 +38,15 @@
     font-family: "Source Serif Pro", monospace, sans-serif;
 }
 .other-details{
+    font-family: "Source Serif Pro", monospace, sans-serif;
+    font-size: 18px;
     height: 2cm;
     width: 65%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     justify-items: center;
     align-items: center;
+    margin-top: -0.3cm;
 }
 footer{
     margin-top: 5cm;
