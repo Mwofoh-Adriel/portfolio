@@ -20,6 +20,7 @@ body.dark-mode {
 }
 body.light-mode .title a,
 body.light-mode .nav a,
+body.light-mode #blog-link,
 body.light-mode .dot,
 body.light-mode .socials a,
 body.light-mode .footer a,
@@ -30,6 +31,7 @@ body.light-mode .container-text {
 body.dark-mode .title a,
 body.dark-mode .nav a,
 body.dark-mode .dot,
+body.dark-mode #blog-link,
 body.dark-mode .socials a,
 body.dark-mode .footer a,
 body.dark-mode .container-text {
@@ -59,7 +61,7 @@ body.dark-mode .container-text {
     margin-right: 10px;
     font-size: 24px;
 }
-.title a{
+.title a {
     color: #28313d;
     text-decoration: underline;
     color: #28313d;
