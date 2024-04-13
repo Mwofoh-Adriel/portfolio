@@ -1,5 +1,5 @@
 body {
-    transition: background-color 0.0s ease;
+    transition: background-color 0.0s smooth;
 }
 
 body.light-mode {
@@ -150,6 +150,7 @@ body.dark-mode .dot {
     color: #28313d;
     font-weight:400 ;
     height: 15cm;
+    text-align: justify;
     width: 74%;
     line-height: 1.55;
     margin-left: 0.3cm;
