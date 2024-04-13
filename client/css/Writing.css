@@ -1,16 +1,12 @@
 body{
-    transition: background-color 0.0s ease;
+    transition: background-color 0.0s smooth;
     }
-.intro span{
-    font-family: "Source Serif Pro", monospace, sans-serif;
-    font-size:  40px;
-    font-weight: 400;
-    margin-left: 15.4%;
-}
+
 .intro word{
     font-family: "Source Serif Pro", monospace, sans-serif;
     font-size:  22px;
     font-weight: 300;
+    margin-left: 6.6cm;
 }
 
 /* Main Section for Blogs*/
