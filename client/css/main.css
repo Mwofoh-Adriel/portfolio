@@ -22,6 +22,7 @@ body.light-mode .title a,
 body.light-mode .nav a,
 body.light-mode #blog-link,
 body.light-mode .dot,
+body.light-mode .contact-main,
 body.light-mode .socials a,
 body.light-mode .footer a,
 body.light-mode .container-text {
@@ -31,11 +32,16 @@ body.light-mode .container-text {
 body.dark-mode .title a,
 body.dark-mode .nav a,
 body.dark-mode .dot,
+body.dark-mode .contact-main,
 body.dark-mode #blog-link,
 body.dark-mode .socials a,
 body.dark-mode .footer a,
 body.dark-mode .container-text {
     color: white;
+}
+body.light-mode .contact-main
+{
+    color:#28313d;
 }
 
 #theme-switcher .fa-moon {
@@ -115,7 +121,7 @@ body.dark-mode .dot {
 }
 .About{
     font-family: "Source Serif Pro", monospace, sans-serif;
-    font-size: 3.21rem;
+    font-size: 3.23rem;
     font-weight:220;
     margin-bottom: 96px;
     display: block;
@@ -169,13 +175,37 @@ body.light-mode .container-text a {
 body.dark-mode .container-text a {
     color: white;
 }
+
+/* Linkedin Badge */
+
+.contact-main{
+    margin-left: 26%;
+    font-size: 21px;
+    margin-top: 5cm;
+    font-weight: 450;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.contact-main:hover{
+    text-decoration: dashed underline;
+}
+.badge-base.LI-profile-badge {
+    width: 45%;
+    height: 6.5cm;
+    margin-left: 26%;
+}
 .Collab-heading{
     font-family: "Source Serif Pro", monospace, sans-serif;
     font-size: 1.8rem;
-    font-weight:220;
+    font-weight:450;
     margin-bottom: 96px;
     display: block;
-    margin: 1.5cm 5.3cm;
+    margin-left: 26%;
+    margin-top: 1cm;
+    text-decoration: underline;
+    margin-bottom: 1.7cm;
+}
+.Collab-heading:hover{
+    text-decoration: dashed underline;
 }
 .Collab{
     height: 15cm;
